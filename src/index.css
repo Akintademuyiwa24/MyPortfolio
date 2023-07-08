@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: opensans;
+  src: url('./fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: montserat;
+  src: url('./fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: rail;
+  src: url('./fonts/Raleway-Regular.ttf');
+}
+
+h3, h2, h4, h5{
+  font-family: opensans;
+}
+p{
+  font-family: montserat;
+}
+a{
+  font-family: montserat;
+  font-size: 12px;
+}
+
